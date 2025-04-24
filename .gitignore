@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CovadisLeaseCar/.vs/CovadisLeaseCar
+/CovadisLeaseCar/CovadisLeaseCar.Api/obj
+/CovadisLeaseCar/CovadisLeaseCar.Application/obj
+/CovadisLeaseCar/CovadisLeaseCar.Domain/obj
