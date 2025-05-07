@@ -1,0 +1,78 @@
+﻿@page "/onboarding"
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 bg-dark text-white p-4">
+            <h2 class="mb-4">Onboarding Process</h2>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <i class="bi bi-info-circle me-2"></i> Domain Information
+                    <small class="text-muted">Domain name and credentials</small>
+                </li>
+                <li class="nav-item mb-2">
+                    <i class="bi bi-building me-2"></i> Company Profile
+                    <small class="text-muted">Mission, vision, and audience</small>
+                </li>
+                <li class="nav-item mb-2">
+                    <i class="bi bi-layout-text-window me-2"></i> Website Structure
+                    <small class="text-muted">Pages and navigation</small>
+                </li>
+                <li class="nav-item mb-2">
+                    <i class="bi bi-palette me-2"></i> Content & Design
+                    <small class="text-muted">Content and visual preferences</small>
+                </li>
+                <li class="nav-item mb-2">
+                    <i class="bi bi-cpu me-2"></i> Technical Details
+                    <small class="text-muted">Technical requirements</small>
+                </li>
+                <li class="nav-item mb-2">
+                    <i class="bi bi-house me-2"></i> Basic Information
+                    <small class="text-muted">Company and contact details</small>
+                </li>
+                <li class="nav-item mb-2">
+                    <i class="bi bi-shield-check me-2"></i> Legal Requirements
+                    <small class="text-muted">Privacy and legal documents</small>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-9 p-4">
+            <h2>Bedrijfsprofiel</h2>
+            <hr />
+
+            <div class="mb-4">
+                <label for="bedrijfsMissie" class="form-label">Bedrijfsmissie <i class="bi bi-info-circle"></i></label>
+                <textarea class="form-control" id="bedrijfsMissie" rows="3"></textarea>
+            </div>
+
+            <div class="mb-4">
+                <label for="bedrijfsVisie" class="form-label">Bedrijfsvisie <i class="bi bi-info-circle"></i></label>
+                <textarea class="form-control" id="bedrijfsVisie" rows="3"></textarea>
+            </div>
+
+            <div class="mb-4">
+                <label for="doelgroep" class="form-label">Doelgroep <i class="bi bi-info-circle"></i></label>
+                <textarea class="form-control" id="doelgroep" rows="3"></textarea>
+            </div>
+
+            <div class="mb-4">
+                <label for="uniekeVerkooppunten" class="form-label">Unieke Verkooppunten <i class="bi bi-info-circle"></i></label>
+                <textarea class="form-control" id="uniekeVerkooppunten" rows="3"></textarea>
+            </div>
+
+            <div class="mb-4">
+                <label for="concurrenten" class="form-label">Concurrenten <i class="bi bi-info-circle"></i></label>
+                <textarea class="form-control" id="concurrenten" rows="3"></textarea>
+            </div>
+            <div class="mb-4">
+                <label for="aboutUsText" class="form-label">About Us Text <i class="bi bi-info-circle"></i></label>
+                <textarea class="form-control" id="aboutUsText" rows="6"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    // You can add C# logic here if needed.  For example:
+    // public string WelcomeMessage { get; set; } = "Welcome to the Onboarding Process!";
+}
