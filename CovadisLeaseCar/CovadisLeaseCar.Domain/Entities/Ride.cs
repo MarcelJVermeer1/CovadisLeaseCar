@@ -10,8 +10,8 @@ namespace CovadisLeaseCar.Domain.Entities
     public class Ride
     {
         public int Id { get; set; }
-        public int IdLeaseCard {  get; set; }
-        public int IdEmpolyee { get; set; }
+        public int IdLeaseCar {  get; set; }
+        public int IdEmployee { get; set; }
         public string Description { get; set; }
         public DateTime Date { get; set; }
         public int BeginMileageKM { get; set; }

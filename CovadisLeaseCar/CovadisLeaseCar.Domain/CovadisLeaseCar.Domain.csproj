@@ -15,4 +15,8 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CovadisLeaseCar.Application\CovadisLeaseCar.Application.csproj" />
+  </ItemGroup>
+
 </Project>

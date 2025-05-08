@@ -8,3 +8,8 @@
 /CovadisLeaseCar/CovadisLeaseCar.Domain/obj
 /CovadisLeaseCar/CovadisLeaseCar.Web/obj
 /CovadisLeaseCar/.vs/ProjectEvaluation
+/CovadisLeaseCar/CovadisLeaseCar.Api/appsettings.json
+/CovadisLeaseCar/CovadisLeaseCar.Api/appsettings.Development.json
+/CovadisLeaseCar/CovadisLeaseCar.Api/bin/Debug/net8.0
+/CovadisLeaseCar/CovadisLeaseCar.Application/bin/Debug/net8.0
+/CovadisLeaseCar/CovadisLeaseCar.Domain/bin/Debug/net8.0
